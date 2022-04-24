@@ -136,9 +136,9 @@
   .navigation .btn {
     display: block;
     padding: 10px 30px;
-    border: 1px solid #FA5757;
+    border: 1px solid hsl(0, 94%, 66%);
     border-radius: 5px;
-    background-color: #FA5757;
+    background-color: hsl(0, 94%, 66%);
     color: #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -200,22 +200,22 @@
     transition: 0.2s;
     display: block;
     padding: 10px 30px;
-    border: 1px solid #FA5757;
+    border: 1px solid hsl(0, 94%, 66%);
     border-radius: 5px;
     background-color: transparent;
-    color: #FA5757;
+    color: hsl(0, 94%, 66%);
     cursor: pointer;
   }
   
   .navigation li:hover {
     transition: 0.2s;
-    color: #FA5757;
+    color: hsl(0, 94%, 66%);
     cursor: pointer;
   }
   
   .header__inner li:hover {
     transition: 0.2s;
-    color: #FA5757;
+    color: hsl(0, 94%, 66%);
   }
   
   .Ftab {
@@ -403,7 +403,7 @@
   }
   
   .features__inner .features__tabs .tab-links .tabItem.active {
-    border-bottom: 4px solid #FA5757;
+    border-bottom: 4px solid hsl(0, 94%, 66%);
   }
   
   .features__inner .features__tabs .tab-links .tabItem.active h4 {
@@ -426,7 +426,7 @@
   }
   
   .tabItem:hover span {
-    color: #FA5757;
+    color: hsl(0, 94%, 66%);
   }
   
   .download__inner {
@@ -522,7 +522,7 @@
   }
   
   .faq__inner .faq__questions .question__item .question__row:hover h6 {
-    color: #FA5757;
+    color: hsl(0, 94%, 66%);
     cursor: pointer;
   }
   
@@ -653,34 +653,34 @@
   }
   
   .contacts__inner form input[type="email"]:invalid {
-    color: #FA5757;
+    color: hsl(0, 94%, 66%);
   }
   
   .contacts__inner form #email.error {
-    border: 2px solid #FA5757;
+    border: 2px solid hsl(0, 94%, 66%);
   }
   
   .contacts__inner form .btn {
     display: block;
     padding: 10px 30px;
-    border: 1px solid #FA5757;
+    border: 1px solid hsl(0, 94%, 66%);
     border-radius: 5px;
-    background-color: #FA5757;
+    background-color: hsl(0, 94%, 66%);
     color: #fff;
     padding: 15px 28px;
     max-width: 130px;
   }
   
   .contacts__inner form .btn:hover {
-    color: #FA5757;
-    border-color: #FA5757;
+    color: hsl(0, 94%, 66%);
+    border-color: hsl(0, 94%, 66%);
   }
   
   .contacts .error-mesage {
     margin-top: -3px;
     max-width: 300px;
     width: 100%;
-    background-color: #FA5757;
+    background-color: hsl(0, 94%, 66%);
     border-radius: 0 0 5px 5px;
   }
   
@@ -856,8 +856,8 @@
   
     .header__inner #toggleMenu .btn:hover {
       transition: 0.2s;
-      border-color: #FA5757;
-      background-color: #FA5757;
+      border-color: hsl(0, 94%, 66%);
+      background-color: hsl(0, 94%, 66%);
     }
   
     .header__inner .header__menu .social {
