@@ -1,61 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voxloud</title>
-    <link rel="stylesheet" href="homework.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="images/favicon-32x32.png">
-</head>
-<body id="body">
-    <header class="header">
-    <h1 class="bookmark">BOOKMARK</h1>
-    <div class="container">
-        <div class="header__inner">
-            <div id="logo-desk" class="logo visibility">
-                <a href="#"><img src="images/logo-bookmark.svg" alt="BOOKMARK logo"></a>
-            </div>
-            <button id="burgerBtn" class="burger-menu" onclick="toggleMenu()" >
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav id="toggleMenu" class="header__menu navigation">
-                <div class="logo">
-                    <a href="#"><img id="logo" src="images/logo-bookmark.svg" alt="BOOKMARK logo"></a>
-                </div>
-                <ul class="navigation__list">
-                    <li>
-                        <a href="#features">
-                            Features
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#pricing">
-                            Pricing
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact">
-                            Contact
-                        </a>
-                    </li>
-                    <li>
-                        <button class="btn btn-s">Login</button>
-                    </li>
-                </ul>
-                <div class="social">
-                    <a href="https://www.facebook.com/voxloud" target="blanket"><img class="filter-accent" src="images/icon-facebook.svg"  alt="facebook logo"></a>
-                    <a href="https://twitter.com/voxloud" target="blanket"><img class="filter-accent" src="images/icon-twitter.svg"  alt="twitter logo"></a>
-                </div>
-            </nav>
-        </div>
-    </div>
-</header>
-<main>
-    <div class="Ftab">
+<?php get_header(); ?>
+<div class="Ftab">
     <div class="container">
         <div class="firstScreen__inner content">
             <div class="content__text">
@@ -253,47 +197,5 @@
     </div>
   </div>
 </div>
-    </main>
-<footer>
-    <div class="container">
-        <div class="footer__inner">
-            <div class="footer__left">
-                <div class="logo">
-                    <a href="#"><img class="filter-white" src="images/logo-bookmark.svg" alt="BOOKMARK logo"></a>
-                </div>
-                <nav class="navigation">
-                    <ul class="navigation__list">
-                        <li>
-                            <a href="#bfeatures">
-                                Features
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#pricing">
-                                Pricing
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer__right">
-                <a href="https://www.facebook.com/voxloud" target="blanket"><img class="filter-accent" src="images/icon-facebook.svg"  alt="facebook logo"></a>
-                <a href="https://twitter.com/voxloud" target="blanket"><img class="filter-accent" src="images/icon-twitter.svg"  alt="twitter logo"></a>
-            </div>
-        </div>
-        <div class="copyright">
-            <span>Challenge by Voxloud</span>
-            <span>Coded by Viktoriia Zakorchemna</span>
-        </div>
-    </div>
-</footer>
-
-<script src="./design/homework.js"></script>
-</body>
-
-</html>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
