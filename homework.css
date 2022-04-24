@@ -212,11 +212,7 @@
     color: hsl(0, 94%, 66%);
     cursor: pointer;
   }
-  .navigation.footer__right:hover{
-    transition: 0.2s;
-    color: hsl(0, 94%, 66%);
-    cursor: pointer;
-  }
+  
   .header__inner li:hover {
     transition: 0.2s;
     color: hsl(0, 94%, 66%);
