@@ -429,6 +429,10 @@ button.burger-menu span:hover {
   color: hsl(0, 94%, 66%);
 }
 
+.challenge.email:hover{
+  color: hsl(0, 94%, 66%);
+}
+
 .download_inner {
   padding-top: 160px;
 }
