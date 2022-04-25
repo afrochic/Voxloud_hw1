@@ -10,12 +10,7 @@
   font-weight: 400;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .footer_right a:hover {
-    transition: .2s;
-    filter: invert(56%) sepia(47%) saturate(3284%) hue-rotate(325deg) brightness(99%) contrast(98%);
-  }
-}
+
 
 .download_inner .download_cards .card h6 {
   font-family: "Rubik-Medium";
@@ -1110,3 +1105,10 @@ body.hiddenScroll {
     margin-top: 17px;
   }
 }
+  @media (hover: hover) and (pointer: fine) {
+    .footer_right a:hover {
+      transition: .2s;
+      filter: invert(56%) sepia(47%) saturate(3284%) hue-rotate(325deg) brightness(99%) contrast(98%);
+    }
+  }
+  
